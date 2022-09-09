@@ -2,7 +2,7 @@ body{
   font-family:Arial,Verdana;
   background-color:#000000;
   color:#ffffff;
-  margin:20px,20px,0px;
+  margin: 20px 20px 0 20px;
 }
 
 h1{
@@ -18,7 +18,8 @@ h2{
 
 p{
     font-size:24px;
-    padding:10px 0px 10px 0px;
+    padding-top:10px;
+    padding-left:10px;
 }
 
 img{
@@ -49,16 +50,14 @@ div{
     background-color:#ff0000;
     text-align:right;
     margin-left:50px;
-    border-bottom:2px;
-    border-left:5px;
+    border-width:0 0 2px 5px;
 }
 
 .blue{
     background-color:#0000ff;
     text-align:left;
     margin-right:50px;
-    border-right:5px;
-    border-top:2px;
+    border-width:2px 5px 0 0;
 }
 
 .blue h2{
@@ -73,8 +72,7 @@ div{
     background-color:#ffff00;
     text-align:right;
     margin-left:50px;
-    border-bottom:2px;
-    border-left:5px;
+    border-width:0 0 2px 5px;
 }
 
 .yellow p{
@@ -85,16 +83,16 @@ div{
     background-color:#008500;
     text-align:left;
     margin-right:50px;
-    border-right:5px;
-    border-top:2px;
+    border-width:2px 5px 0 0;
 }
 
 footer{
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px solid #ffffff;
 }
 
 footer p{
     font-size:20px;
     text-align:right;
-    padding:15px 15px 0px 15px;
+    padding:15px 15px 15px 0;
 }
